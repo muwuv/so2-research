@@ -1,0 +1,8 @@
+# core analysis
+capstone>=5.0
+pyelftools>=0.29
+numpy>=1.24
+
+# optional: for the GUI / overlay
+#   tkinter ships with CPython on Windows and macOS;
+#   on Debian/Ubuntu install python3-tk

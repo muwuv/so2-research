@@ -1,0 +1,37 @@
+# --- never commit the game's own files -------------------------------------
+*.apk
+*.apks
+*.aab
+*.obb
+*.so
+*.dex
+base.apk
+main.obb
+su.bin
+extract/
+dump/
+root/
+tools/
+*.log
+*.state.json
+*.so2bak
+
+# --- python ----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# --- editors / OS ----------------------------------------------------------
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# --- secrets ---------------------------------------------------------------
+*.token
+.env
+.env.*
+token.txt
